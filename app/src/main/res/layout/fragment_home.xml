@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/deepbluebackground"
+    tools:context=".HomeFragment">
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/homeframentmenu"
+        android:text="Home Fragment"
+        android:textSize="20dp"
+
+        android:gravity="center">
+
+    </TextView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="90dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="30dp"
+                android:id="@+id/fundframentmenu"
+                android:text="Hello  Rakib"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="25dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/firstimage"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/imageviewone">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:id="@+id/fundframentmenuone"
+            android:text="Manage Your Money"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="27dp"
+            android:textSize="10dp"
+            android:textColor="@color/white">
+
+        </TextView>
+
+
+
+        <ImageView
+            android:layout_width="255dp"
+            android:layout_height="170dp"
+            android:id="@+id/secondimage"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/bacckgroundatm">
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/fundframentmenutwo"
+                    android:text="$87."
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/fundframentmenuthree"
+                android:text="50k"
+                android:layout_marginTop="40dp"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="-20dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:id="@+id/fundframentmenufour"
+                android:text="$12."
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="100dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/fundframentmenusix"
+                android:text="80k"
+                android:layout_marginTop="40dp"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="-20dp">
+
+            </TextView>
+
+
+
+                </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:id="@+id/fundframentmenuseven"
+                android:text="Total balance"
+                android:layout_marginTop="0dp"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp">
+            </TextView>
+
+
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:id="@+id/fundframentmenueight"
+                android:text="Total Spent"
+                android:layout_marginTop="0dp"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="90dp">
+            </TextView>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:id="@+id/fundframentmenunine"
+            android:text="Transaction"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:id="@+id/tenthimage"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/amazonbackgroundtwo">
+
+        </ImageView>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/fundframentmenueleven"
+        android:text="Amazon Prime"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold">
+    </TextView>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:id="@+id/fundframentmenutwelve"
+            android:text="06 Jan, 2021"
+            android:layout_marginTop="0dp"
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp">
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/fundframentmenuthirteen"
+        android:text="$270.50"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="65dp"
+        android:textStyle="bold">
+    </TextView>
+
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:id="@+id/eleventhimage"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/letterbackground">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/fundframentmenuthireteen"
+                    android:text="Cartoon Course"
+                    android:layout_marginTop="30dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold">
+                </TextView>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/fundframentmenufourteen"
+                    android:text="04 Jan, 2021"
+                    android:layout_marginTop="0dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp">
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:id="@+id/fundframentmenufifteen"
+                android:text="$128.60"
+                android:layout_marginTop="30dp"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="65dp"
+                android:textStyle="bold">
+            </TextView>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

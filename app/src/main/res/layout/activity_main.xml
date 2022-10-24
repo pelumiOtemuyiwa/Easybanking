@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purplebackground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/fundframentmenu"
+        android:text="Easy  banking"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:id="@+id/firstimage"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/startbackground">
+
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/fundframentmenutwo"
+        android:text="With the"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </TextView>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:id="@+id/fundframentmenuthree"
+            android:text="Best  Way"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="64dp"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/secondimage"
+            android:layout_marginTop="138dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/beautifularrowbackground">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="20dp"
+        android:id="@+id/fundframentmenufour"
+        android:text="Best Payment method, connect"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="12dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="20dp"
+        android:id="@+id/fundframentmenufive"
+        android:text="Your money to your friends."
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="12dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/fourthimage"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="240dp"
+        android:background="@drawable/blackshape">
+
+    </ImageView>
+
+
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="250dp"
+            android:id="@+id/thirdimage"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/beautifulbabebackground">
+
+        </ImageView>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
